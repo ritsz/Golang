@@ -21,7 +21,7 @@ var (
 func main() {
     var c, python = true, false
     i, j := 10, 20 /* Inside a func, variables can be non declarative. */
-    a, b := 9, "World"
+    a, b = 9, "World" /* Updating values with =, := only for new variables */
     fmt.Println(a, b, c, python, i, j)
 
     fmt.Printf("Type: %T Value: %v\n", bl, bl)
